@@ -822,7 +822,7 @@ table#change-history tbody th {
 .colSM #content-related {
     float: left;
     margin-right: 0;
-    margin-left: -19em;
+    margin-left: 0;
 }
 
 .colSM #content-main {
@@ -924,4 +924,8 @@ table#change-history tbody th {
     padding-left:0;
     display: list-item;
     font-weight:normal;font-size: 13px !important;
+}
+
+.xfull{
+	width:100%;
 }

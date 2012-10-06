@@ -376,3 +376,8 @@ body.popup .submit-row {
 .empty-form {
 	display: none;
 }
+
+textarea{
+    height: 557px;
+    width: 831px;
+}
