@@ -21,6 +21,7 @@ header {
 	margin-bottom: 0px;
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 }
 a, img {
 	border-style: none;
@@ -156,19 +157,21 @@ div.footer {
 footer {
 	padding-top: 20px;
 	padding-bottom: 0px;
-	margin-top: 20px;
+	margin-top: 35px;
 	border-top: 1px solid #797979;
 	width: 100%;
 	background-color: #222;
-	height:145px;
+	height:110px;
 }
 footer * {
 	color: #ccc;
 	font-size: 13px;
 	text-align: center;
 	text-decoration: none;
-	font-family: Helvetica, arial, freesans, clean, sans-serif;
+	font-family: 'Overlock',cursive;
 }
+
+
 h1, h2 {
 	padding-bottom: 5px;
 }
@@ -202,8 +205,8 @@ pre.code {
 	padding: 10px;
 	text-align: left;
 	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
 /* ------------------------------------------
  * CSS3 GITHUB BUTTONS (Nicolas Gallagher)
